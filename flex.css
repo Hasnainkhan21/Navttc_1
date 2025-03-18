@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.a{
+    background-color: rgb(16, 199, 199);
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.child{
+    height: 120px;
+    width: 120px;
+    border: 2px solid crimson;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
