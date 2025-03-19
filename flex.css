@@ -12,8 +12,11 @@
     height: 120px;
     width: 120px;
     border: 2px solid crimson;
-    position: relative;
+   
     display: flex;
-    justify-content: center;
-    align-items: center;
+    
+    
+}
+.child img{
+    background-size: cover;
 }

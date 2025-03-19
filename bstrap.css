@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section {
+    width: 100%;
+    display: flex;
+}
+
+.card {
+    width: 300px;
+    background: rgb(255, 155, 155);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+} 
+
+.img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.img img {
+    width: 229px;
+    height: 146px;
+    border-radius: 4%;
+    object-fit: cover;
+}
+
+
+h1 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
